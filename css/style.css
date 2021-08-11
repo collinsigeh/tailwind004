@@ -1,4 +1,14 @@
 /* ./your-css-folder/styles.css */
 @tailwind base;
+
 @tailwind components;
+
+.btn-blue{
+    @apply mt-4 bg-blue-500 text-white font-bold px-4 pt-1 pb-2 rounded;
+}
+
+.btn-blue:hover{
+    @apply bg-blue-700;
+}
+
 @tailwind utilities;
