@@ -599,6 +599,18 @@ video {
   }
 }
 
+.btn-red {
+  padding: 0.25rem 1rem 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  background-color: #e3342f;
+  color: #fff;
+}
+
+.btn-red:hover {
+  background-color: #cc1f1a;
+}
+
 .btn-blue{
   margin-top: 1rem;
   border-radius: 0.25rem;
